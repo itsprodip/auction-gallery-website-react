@@ -19,6 +19,12 @@ const Main = () => {
     const handleTotalBidAmount=(amount)=>{
         setTotalBidAmount((parseFloat(amount)+totalBidAmount));
     }
+
+    const removeBid=(bidCart)=>{
+        const heyBids=bid.filter(item=> item.id!==bidCart.id);
+        setBid(heyBids);
+       setTotalBidAmount(totalBidAmount - parseFloat(bidCart.currentBidPrice));
+    }
   return (
     <div className="py-20 px-20 space-y-3">
       <h1 className="font-semibold text-2xl text-[#2a4268]">Active Auctions</h1>
@@ -54,8 +60,20 @@ const Main = () => {
             </h1>
           </div>
           <div>
+            {bid.length === 0 && (
+              <div className="px-10 space-y-4 my-7">
+                <h1 className="font-semibold text-2xl">No favorites yet</h1>
+                <p className="text-gray-500">
+                  Click the heart icon on any item to add it to your favorites
+                </p>
+              </div>
+            )}
             {bid.map((item) => (
-              <BidCart key={item.id} bidCart={item}></BidCart>
+              <BidCart
+                key={item.id}
+                bidCart={item}
+                removeBid={removeBid}
+              ></BidCart>
             ))}
           </div>
           <div className="flex justify-between">

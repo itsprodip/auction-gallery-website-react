@@ -1,8 +1,8 @@
 import React from 'react';
 import { MdCancelPresentation } from "react-icons/md";
-const BidCart = ({ bidCart }) => {
+const BidCart = ({ bidCart, removeBid }) => {
   const { image, title, currentBidPrice: price, bidsCount } = bidCart;
-  
+
   return (
     <div>
       <div className="flex gap-2 items-center border-b border-gray-200 pt-3 pb-2 text-[#0e2954]">
@@ -17,7 +17,9 @@ const BidCart = ({ bidCart }) => {
           </div>
         </div>
         <div className="w-[10%]">
-          <button className="cursor-pointer">
+          <button onClick={()=>{
+            removeBid(bidCart);
+          }} className="cursor-pointer">
             <MdCancelPresentation />
           </button>
         </div>
