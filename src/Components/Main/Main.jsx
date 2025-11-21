@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <div className="py-20 px-20 space-y-3">
       <h1 className="font-semibold text-2xl text-[#2a4268]">Active Auctions</h1>
-      <h4 className="text-sm">Discover and bid on extraordinary items</h4>
+      <h4 className="text-sm font-semibold text-gray-600">Discover and bid on extraordinary items</h4>
       <div className="flex gap-5 text-center">
         <div className="w-[70%] bg-white rounded-lg p-5 ">
           <div className="flex border-b border-gray-200 pb-5">
