@@ -2,7 +2,7 @@ import React from 'react';
 import { MdCancelPresentation } from "react-icons/md";
 const BidCart = ({ bidCart }) => {
   const { image, title, currentBidPrice: price, bidsCount } = bidCart;
-  console.log(image, title, price, bidsCount);
+  
   return (
     <div>
       <div className="flex gap-2 items-center border-b border-gray-200 pt-3 pb-2 text-[#0e2954]">
