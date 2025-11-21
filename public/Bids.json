@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Vintage Camera",
+    "description": "A classic 1960s film camera in fully working condition.",
+    "currentBidPrice": 120.5,
+    "timeLeft": "2h 15m",
+    "bidsCount": 14,
+    "image": "https://images.esquiremag.ph/esquiremagph/images/2019/11/06/where-to-buy-vintage-camera-MAINIMAGE.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Wooden Study Table",
+    "description": "Handcrafted solid wood desk suitable for home or office.",
+    "currentBidPrice": 320.0,
+    "timeLeft": "5h 40m",
+    "bidsCount": 22,
+    "image": "https://ik.imagekit.io/2xkwa8s1i/img/tv-units/WSTSAGER1/1.jpg?tr=w-3840"
+  },
+  {
+    "id": 3,
+    "title": "Gaming Laptop",
+    "description": "RTX 3060, 16GB RAM, 512GB SSD. Great condition.",
+    "currentBidPrice": 850.99,
+    "timeLeft": "1h 5m",
+    "bidsCount": 31,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Mountain Bicycle",
+    "description": "21-speed mountain bike suitable for rough terrains.",
+    "currentBidPrice": 210.0,
+    "timeLeft": "8h 10m",
+    "bidsCount": 12,
+    "image": "https://www.reidcycles.com.au/cdn/shop/files/MTB-Sport-MY24-1_1.png?v=1726010849"
+  },
+  {
+    "id": 5,
+    "title": "Smart Watch",
+    "description": "Fitness tracking, heart rate monitor, and GPS.",
+    "currentBidPrice": 75.25,
+    "timeLeft": "3h 55m",
+    "bidsCount": 9,
+    "image": "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Wireless Headphones",
+    "description": "Noise-cancelling over-ear headphones with 40hr battery life.",
+    "currentBidPrice": 98.0,
+    "timeLeft": "6h 20m",
+    "bidsCount": 17,
+    "image": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "title": "Leather Office Chair",
+    "description": "Premium ergonomic chair with lumbar support.",
+    "currentBidPrice": 150.0,
+    "timeLeft": "4h 50m",
+    "bidsCount": 11,
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "title": "4K LED TV",
+    "description": "Ultra HD 55-inch smart TV with HDR10 support.",
+    "currentBidPrice": 499.99,
+    "timeLeft": "2h 30m",
+    "bidsCount": 27,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 9,
+    "title": "Electric Guitar",
+    "description": "Red Strat-style guitar with maple neck and gig bag.",
+    "currentBidPrice": 180.0,
+    "timeLeft": "7h 45m",
+    "bidsCount": 15,
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 10,
+    "title": "Smartphone Pro Max",
+    "description": "128GB storage, OLED display, great battery health.",
+    "currentBidPrice": 699.0,
+    "timeLeft": "1h 25m",
+    "bidsCount": 39,
+    "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 11,
+    "title": "Gaming Chair",
+    "description": "Recliner gaming chair with headrest & adjustable arms.",
+    "currentBidPrice": 165.75,
+    "timeLeft": "9h 10m",
+    "bidsCount": 18,
+    "image": "https://i5.walmartimages.com/seo/GTPLAYER-Gaming-Chair-with-Footrest-and-Ergonomic-Lumbar-Massage-Pillow-Faux-Leather-Office-Chair-White_86133479-a937-469b-bf4f-90a3f05e6b93.2550a814977ea264f357b78c66fc3c04.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "Drone with 4K Camera",
+    "description": "GPS drone with return-to-home and 4K recording.",
+    "currentBidPrice": 240.0,
+    "timeLeft": "3h 05m",
+    "bidsCount": 26,
+    "image": "https://cdn.bdstall.com/product-image/giant_217265.jpg"
+  }
+]
