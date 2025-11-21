@@ -5,15 +5,15 @@ const BidCart = ({ bidCart }) => {
   console.log(image, title, price, bidsCount);
   return (
     <div>
-      <div className="flex gap-2 items-center border-b border-gray-200 pt-3">
+      <div className="flex gap-2 items-center border-b border-gray-200 pt-3 pb-2 text-[#0e2954]">
         <div className="w-[20%]">
           <img className="w-15 h-15 object-cover" src={image} alt="" />
         </div>
         <div className="w-[70%] ml-5">
-          <div className='text-left'>{title}</div>
-          <div className='flex gap-4'>
-            <div>${price}</div>
-            <div>Bids: {bidsCount}</div>
+          <div className="text-left font-semibold">{title}</div>
+          <div className="flex gap-3">
+            <div className="w-20 text-left">${price}</div>
+            <div className="w-20 text-center">Bids: {bidsCount}</div>
           </div>
         </div>
         <div className="w-[10%]">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Bid = ({ bid, handleBid }) => {
+const Bid = ({ bid, handleBid, handleTotalBidAmount }) => {
   const { title, image, currentBidPrice: price, timeLeft: time } = bid;
   return (
     <div className="flex border-b border-gray-200 pb-5 pt-2 justify-center items-center text-center">
@@ -18,7 +18,10 @@ const Bid = ({ bid, handleBid }) => {
       <div className="w-[20%] font-semibold">{time}</div>
       <div className="w-[20%] font-semibold">
         <img
-          onClick={()=>{handleBid(bid);}}
+          onClick={() => {
+            handleBid(bid);
+            handleTotalBidAmount(price);
+          }}
           className="h-5 w-5 mx-auto cursor-pointer"
           src="https://icons.veryicon.com/png/o/miscellaneous/simple-icon-3/like-284.png"
           alt=""

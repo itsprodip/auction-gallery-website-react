@@ -14,6 +14,11 @@ const Main = () => {
         setBid([...bid,newBid])
         
     }
+
+    const [totalBidAmount,setTotalBidAmount]=useState(0);
+    const handleTotalBidAmount=(amount)=>{
+        setTotalBidAmount((parseFloat(amount)+totalBidAmount));
+    }
   return (
     <div className="py-20 px-20 space-y-3">
       <h1 className="font-semibold text-2xl text-[#2a4268]">Active Auctions</h1>
@@ -29,7 +34,12 @@ const Main = () => {
             <div className="w-[20%] font-semibold">Bid Now</div>
           </div>
           {bids.map((bid) => (
-            <Bid key={bid.id} bid={bid} handleBid={handleBid}></Bid>
+            <Bid
+              key={bid.id}
+              bid={bid}
+              handleBid={handleBid}
+              handleTotalBidAmount={handleTotalBidAmount}
+            ></Bid>
           ))}
         </div>
         <div className="w-[30%] bg-white rounded-lg p-5 ">
@@ -44,16 +54,16 @@ const Main = () => {
             </h1>
           </div>
           <div>
-            {
-                bid.map(item=><BidCart key={item.id} bidCart={item}></BidCart>)
-            }
+            {bid.map((item) => (
+              <BidCart key={item.id} bidCart={item}></BidCart>
+            ))}
           </div>
           <div className="flex justify-between">
             <div>
               <h2 className="text-xl">Total bids Amount</h2>
             </div>
             <div>
-              <h2 className="text-xl">$100</h2>
+              <h2 className="text-xl">${totalBidAmount}</h2>
             </div>
           </div>
         </div>
