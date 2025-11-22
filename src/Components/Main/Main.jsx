@@ -24,6 +24,7 @@ const Main = () => {
         const heyBids=bid.filter(item=> item.id!==bidCart.id);
         setBid(heyBids);
        setTotalBidAmount(totalBidAmount - parseFloat(bidCart.currentBidPrice));
+       handleRemoveBidClicked();
     }
   return (
     <div className="py-20 px-20 space-y-3">

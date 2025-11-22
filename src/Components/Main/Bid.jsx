@@ -7,7 +7,9 @@ const Bid = ({ bid, handleBid, handleTotalBidAmount }) => {
     setBidClicked(true);
    
   };
-
+  const handleRemoveBidClicked=()=>{
+    console.log("handle Bid clicked");
+  }
   return (
     <div className="flex border-b border-gray-200 pb-5 pt-2 justify-center items-center text-center">
       <div className="w-[40%] font-semibold">
